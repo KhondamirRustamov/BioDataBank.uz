@@ -37,6 +37,11 @@ def main():
     return render_template('main.html')
 
 
+@app.route('/jamoamiz')
+def team():
+    return render_template('team.html')
+
+
 @app.route('/flora-uz', methods=['POST', 'GET'])
 def flora():
     species = ''

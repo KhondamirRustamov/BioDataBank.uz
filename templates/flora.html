@@ -12,8 +12,8 @@
         </div>
         <div class="collapse py-2" id="collapseExample">
           <div class="card card-body">
-              <h6><span class="badge badge-secondary">TUR</span> Tur nomi boyicha izlash</h6>
-              <p>1.1. Turlarni izlashda ularning binar nomenklatura boyicha nomini kiriting, masalan:
+              <h6><span class="badge badge-secondary">TUR</span> Tur nomi bo'yicha izlash</h6>
+              <p>1.1. Turlarni izlashda ularning binar nomenklatura bo'yicha nomini kiriting, masalan:
                   <i><u>Allium karataviense</u></i>
               </p>
               <p>1.2. Turni uning rus tilidagi nomi bo'yicha izlash uchun
@@ -27,7 +27,7 @@
                   <i><u>Қоратоғ пиёзи</u></i>
               </p>
 
-              <h6><span class="badge badge-secondary">TURKUM</span> Turkum nomi boyicha izlash</h6>
+              <h6><span class="badge badge-secondary">TURKUM</span> Turkum nomi bo'yicha izlash</h6>
               <p>2.1. Turkum bo'yicha izlaganda, O'zbekiston florasida ushbu turkumga mansub bo'lgan
                   barcha turlarning ro'yxati chiqadi. Turkumlarni ularning lotin nomlari bo'yicha izlash uchun
                   <u>Turkum nomi (lotin)</u>
@@ -40,7 +40,7 @@
                   <i><u>Эремурус</u></i>
               </p>
 
-              <h6><span class="badge badge-secondary">OILA</span> Oila nomi boyicha izlash</h6>
+              <h6><span class="badge badge-secondary">OILA</span> Oila nomi bo'yicha izlash</h6>
               <p>3.1. Oila bo'yicha izlaganda, O'zbekiston florasida ushbu oilaga mansub bo'lgan
                   barcha turlarning ro'yxati chiqadi. Oilalarni ularning lotin nomlari bo'yicha izlash uchun
                   <u>Oila nomi (lotin)</u>
@@ -53,7 +53,7 @@
                   <u>Пасленовые</u>
               </p>
               <h6><span class="badge badge-secondary">?</span> Izlash natija bermagan bo'lsa:</h6>
-              <p>4.1. Kiritilgan tur/turkum/oila nomini to'g'ti yozilganligini tekshirib ko'ring
+              <p>4.1. Kiritilgan tur/turkum/oila nomini to'g'ri yozilganligini tekshirib ko'ring
               </p>
           </div>
         </div>
@@ -79,12 +79,12 @@
 </div>
 <style>
     p {
-    margin-top: 0.1em; /* Отступ сверху */
-    margin-bottom: 0.2em; /* Отступ снизу */
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
    }
    h6 {
-    margin-top: 0.1em; /* Отступ сверху */
-    margin-bottom: 0.2em; /* Отступ снизу */
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
    }
 </style>
 <div class="row d-flex justify-content-center">
@@ -129,7 +129,7 @@
                         <br>
                     </div>
                     <div class="card-footer">
-                        Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yeg'ilgan
+                        Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yig'ilgan
                     </div>
             </div>
             </div>
@@ -191,7 +191,7 @@
                           </div>
                           <div class="modal-footer">
                             <p class="text-center">
-                                Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yeg'ilgan
+                                Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yig'ilgan
                             </p>
                           </div>
                         </div>
@@ -265,7 +265,7 @@
                           </div>
                           <div class="modal-footer">
                             <p class="text-center">
-                                Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yeg'ilgan
+                                Ma'lumotlar O'zbekiston Respublikasi Fanlar Akademiyasi qoshidagi Botanika Instituti xodimlari tomonidan yig'ilgan
                             </p>
                           </div>
                         </div>
@@ -275,126 +275,121 @@
             </div>
             {% endif %}
 
+
+
+
+
     <div class="container text-center py-3">
         <br>
         <br>
-        <a class="btn btn-success" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+
             <h4>Mualliflar:</h4>
-        </a>
+
+
+
         <br>
-        <br>
-    </div>
-    <div class="collapse" id="collapseExample1">
-    <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active py-3">
-            <div class="container card-deck py-3">
+        <div class="container">
+            <div id="accordion" class="py-3">
+                <div class="row">
+                      <div class="col-sm-11 col-md-4 col-lg-4">
+                        <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <h5 class="mb-0">
+                                  O.T.Turginov
+                                </h5>
+                        </button>
+                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div>
+                                <div class="d-flex justify-content-center py-3">
+                                   <img class="card-img-top rounded-circle d-flex justify-content-center" src="https://i1.rgstatic.net/ii/profile.image/556475107024896-1509685412705_Q128/Ot-Turginov.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
+                                </div>
+                                <h5>b.f.n.</h5>
+                                <p class="text-muted">O'zbekiston Botanika Instituti</p>
+                                <p class="text-muted">O'zbekiston Florasi laboratoriyasining mudiri</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-11 col-md-4 col-lg-4">
+                        <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h5 class="mb-0">
+                                  ???
 
-              <div class="card border-light mb-3">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle d-flex justify-content-center" src="https://i1.rgstatic.net/ii/profile.image/556475107024896-1509685412705_Q128/Ot-Turginov.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">O.T.Turginov</h5>
-                  </div>
-              </div>
+                                </h5>
+                        </button>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div>
+                            ???
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-11 col-md-4 col-lg-4">
 
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
+                          <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              <h5 class="mb-0">
+                            ???</h5>
+                          </button>
 
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
 
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div>
+                            ???
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div id="accordion1" class="py-3">
+                <div class="row">
+                      <div class="col-sm-11 col-md-4 col-lg-4">
+                        <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+                                <h5 class="mb-0">
+                                  O.T.Turginov
+                                </h5>
+                        </button>
+                          <div id="collapseOne1" class="collapse" aria-labelledby="headingOne1" data-parent="#accordion1">
+                            <div>
+                                <div class="d-flex justify-content-center py-3">
+                                   <img class="card-img-top rounded-circle d-flex justify-content-center" src="https://i1.rgstatic.net/ii/profile.image/556475107024896-1509685412705_Q128/Ot-Turginov.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
+                                </div>
+                                <h5>b.f.n.</h5>
+                                <p class="text-muted">O'zbekiston Botanika Instituti</p>
+                                <p class="text-muted">O'zbekiston Florasi laboratoriyasining mudiri</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-11 col-md-4 col-lg-4">
+                        <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                                <h5 class="mb-0">
+                                  ???
 
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
-          </div>
+                                </h5>
+                        </button>
+                        <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                          <div>
+                            ???
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-11 col-md-4 col-lg-4">
+
+                          <button class="btn collapsed btn-block" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+                              <h5 class="mb-0">
+                            ???</h5>
+                          </button>
+
+
+                        <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordion1">
+                          <div>
+                            ???
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item py-3">
-          <div class="container card-deck py-3">
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
 
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
-
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
-
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
-
-              <div class="card border-light">
-                  <div class="d-flex justify-content-center py-3">
-                    <img class="card-img-top rounded-circle" src="https://chto-takoe-lyubov.net/wp-content/uploads/2017/08/voprositelnyy-znak-stikhi.jpg" alt="Card image cap" style="width: 15vh; height: 15vh;">
-                  </div>
-                  <div class="card-body d-flex justify-content-center">
-                    <h5 class="card-title">???</h5>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-    </div>
+
 </div>
 
 {% endblock %}
