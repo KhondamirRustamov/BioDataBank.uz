@@ -37,9 +37,24 @@ def main():
     return render_template('main.html')
 
 
-@app.route('/jamoamiz')
+@app.route('/jamoamiz', methods=['POST', 'GET'])
 def team():
-    return render_template('team.html')
+    text=''
+    if request.method == 'POST':
+        text='Mana'
+        return render_template('team.html', text=text)
+    else:
+        return render_template('team.html', text=text)
+
+
+@app.route('/donate')
+def donate():
+    return render_template('donate.html')
+
+
+@app.route('/report')
+def report():
+    return render_template('report.html')
 
 
 @app.route('/flora-uz', methods=['POST', 'GET'])
