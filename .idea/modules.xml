@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Flora-bot/.idea/Flora-bot.iml" filepath="$PROJECT_DIR$/../Flora-bot/.idea/Flora-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FloraUz/.idea/FloraUz.iml" filepath="$PROJECT_DIR$/../FloraUz/.idea/FloraUz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FloraUzb.iml" filepath="$PROJECT_DIR$/.idea/FloraUzb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flaskbot/.idea/flaskbot.iml" filepath="$PROJECT_DIR$/../flaskbot/.idea/flaskbot.iml" />
     </modules>
   </component>
 </project>

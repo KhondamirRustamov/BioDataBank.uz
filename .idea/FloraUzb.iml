@@ -6,5 +6,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (FloraUzb)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="FloraUz" />
+    <orderEntry type="module" module-name="flaskbot" />
+    <orderEntry type="module" module-name="Flora-bot" />
   </component>
 </module>
